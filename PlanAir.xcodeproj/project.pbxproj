@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3919405F1F91F2DB0052DBDA /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */; };
+		39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */; };
 		39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */; };
 		39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C41F91D4BC0083E542 /* ViewController.swift */; };
 		39F9C5C81F91D4BC0083E542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5C61F91D4BC0083E542 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		39F9C5CD1F91D4BC0083E542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */; };
 		39F9C5D81F91D4BC0083E542 /* PlanAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5D71F91D4BC0083E542 /* PlanAirTests.swift */; };
 		39F9C5E31F91D4BC0083E542 /* PlanAirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5E21F91D4BC0083E542 /* PlanAirUITests.swift */; };
+		39F9C5F11F91E0EE0083E542 /* GoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		391940641F9273E10052DBDA /* blueWC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueWC.jpg; path = ../../../../Downloads/Images/blueWC.jpg; sourceTree = "<group>"; };
+		3919406E1F92883F0052DBDA /* byg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = byg.png; path = ../../../../Dropbox/Screenshots/byg.png; sourceTree = "<group>"; };
+		3919406F1F9289970052DBDA /* redYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redYellow.png; path = ../../../../Dropbox/Screenshots/redYellow.png; sourceTree = "<group>"; };
+		39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandGoalViewController.swift; sourceTree = "<group>"; };
 		39F9C5BF1F91D4BC0083E542 /* PlanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F9C5C41F91D4BC0083E542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 		39F9C5DE1F91D4BC0083E542 /* PlanAirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanAirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F9C5E21F91D4BC0083E542 /* PlanAirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAirUITests.swift; sourceTree = "<group>"; };
 		39F9C5E41F91D4BC0083E542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */,
-				39F9C5C41F91D4BC0083E542 /* ViewController.swift */,
 				39F9C5C61F91D4BC0083E542 /* Main.storyboard */,
+				39F9C5C41F91D4BC0083E542 /* ViewController.swift */,
+				3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */,
+				39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */,
+				39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */,
+				391940641F9273E10052DBDA /* blueWC.jpg */,
+				3919406E1F92883F0052DBDA /* byg.png */,
+				3919406F1F9289970052DBDA /* redYellow.png */,
 				39F9C5C91F91D4BC0083E542 /* Assets.xcassets */,
 				39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */,
 				39F9C5CE1F91D4BC0083E542 /* Info.plist */,
@@ -260,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */,
+				39F9C5F11F91E0EE0083E542 /* GoalTableViewController.swift in Sources */,
+				3919405F1F91F2DB0052DBDA /* AddGoalViewController.swift in Sources */,
 				39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */,
+				39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
