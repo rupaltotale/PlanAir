@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3919405F1F91F2DB0052DBDA /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */; };
+		391940711F9297560052DBDA /* ExtracurricularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940701F9297560052DBDA /* ExtracurricularViewController.swift */; };
+		391940731F9298700052DBDA /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940721F9298700052DBDA /* SecondTable.swift */; };
+		391940751F92988C0052DBDA /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940741F92988C0052DBDA /* ThirdView.swift */; };
+		391940771F9298FF0052DBDA /* ChooseOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940761F9298FF0052DBDA /* ChooseOneViewController.swift */; };
+		391940791F92A3750052DBDA /* WebpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940781F92A3750052DBDA /* WebpageViewController.swift */; };
 		39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */; };
 		39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */; };
 		39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C41F91D4BC0083E542 /* ViewController.swift */; };
@@ -41,6 +46,11 @@
 		391940641F9273E10052DBDA /* blueWC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueWC.jpg; path = ../../../../Downloads/Images/blueWC.jpg; sourceTree = "<group>"; };
 		3919406E1F92883F0052DBDA /* byg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = byg.png; path = ../../../../Dropbox/Screenshots/byg.png; sourceTree = "<group>"; };
 		3919406F1F9289970052DBDA /* redYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redYellow.png; path = ../../../../Dropbox/Screenshots/redYellow.png; sourceTree = "<group>"; };
+		391940701F9297560052DBDA /* ExtracurricularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracurricularViewController.swift; sourceTree = "<group>"; };
+		391940721F9298700052DBDA /* SecondTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
+		391940741F92988C0052DBDA /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		391940761F9298FF0052DBDA /* ChooseOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseOneViewController.swift; sourceTree = "<group>"; };
+		391940781F92A3750052DBDA /* WebpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebpageViewController.swift; sourceTree = "<group>"; };
 		39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandGoalViewController.swift; sourceTree = "<group>"; };
 		39F9C5BF1F91D4BC0083E542 /* PlanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,12 +119,17 @@
 				39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */,
 				39F9C5C61F91D4BC0083E542 /* Main.storyboard */,
 				39F9C5C41F91D4BC0083E542 /* ViewController.swift */,
+				3919406E1F92883F0052DBDA /* byg.png */,
+				39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */,
 				3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */,
 				39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */,
-				39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */,
-				391940641F9273E10052DBDA /* blueWC.jpg */,
-				3919406E1F92883F0052DBDA /* byg.png */,
 				3919406F1F9289970052DBDA /* redYellow.png */,
+				391940701F9297560052DBDA /* ExtracurricularViewController.swift */,
+				391940761F9298FF0052DBDA /* ChooseOneViewController.swift */,
+				391940781F92A3750052DBDA /* WebpageViewController.swift */,
+				391940721F9298700052DBDA /* SecondTable.swift */,
+				391940741F92988C0052DBDA /* ThirdView.swift */,
+				391940641F9273E10052DBDA /* blueWC.jpg */,
 				39F9C5C91F91D4BC0083E542 /* Assets.xcassets */,
 				39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */,
 				39F9C5CE1F91D4BC0083E542 /* Info.plist */,
@@ -274,10 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391940751F92988C0052DBDA /* ThirdView.swift in Sources */,
+				391940771F9298FF0052DBDA /* ChooseOneViewController.swift in Sources */,
 				39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */,
 				39F9C5F11F91E0EE0083E542 /* GoalTableViewController.swift in Sources */,
 				3919405F1F91F2DB0052DBDA /* AddGoalViewController.swift in Sources */,
+				391940731F9298700052DBDA /* SecondTable.swift in Sources */,
+				391940711F9297560052DBDA /* ExtracurricularViewController.swift in Sources */,
 				39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */,
+				391940791F92A3750052DBDA /* WebpageViewController.swift in Sources */,
 				39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
