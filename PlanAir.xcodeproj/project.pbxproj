@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */; };
+		39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C41F91D4BC0083E542 /* ViewController.swift */; };
+		39F9C5C81F91D4BC0083E542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5C61F91D4BC0083E542 /* Main.storyboard */; };
+		39F9C5CA1F91D4BC0083E542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5C91F91D4BC0083E542 /* Assets.xcassets */; };
+		39F9C5CD1F91D4BC0083E542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */; };
+		39F9C5D81F91D4BC0083E542 /* PlanAirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5D71F91D4BC0083E542 /* PlanAirTests.swift */; };
+		39F9C5E31F91D4BC0083E542 /* PlanAirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5E21F91D4BC0083E542 /* PlanAirUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F9C5D41F91D4BC0083E542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F9C5B71F91D4BC0083E542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F9C5BE1F91D4BC0083E542;
+			remoteInfo = PlanAir;
+		};
+		39F9C5DF1F91D4BC0083E542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F9C5B71F91D4BC0083E542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F9C5BE1F91D4BC0083E542;
+			remoteInfo = PlanAir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39F9C5BF1F91D4BC0083E542 /* PlanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39F9C5C41F91D4BC0083E542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39F9C5C71F91D4BC0083E542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39F9C5C91F91D4BC0083E542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F9C5CC1F91D4BC0083E542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39F9C5CE1F91D4BC0083E542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F9C5D31F91D4BC0083E542 /* PlanAirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanAirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F9C5D71F91D4BC0083E542 /* PlanAirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAirTests.swift; sourceTree = "<group>"; };
+		39F9C5D91F91D4BC0083E542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F9C5DE1F91D4BC0083E542 /* PlanAirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanAirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F9C5E21F91D4BC0083E542 /* PlanAirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAirUITests.swift; sourceTree = "<group>"; };
+		39F9C5E41F91D4BC0083E542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F9C5BC1F91D4BC0083E542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5D01F91D4BC0083E542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5DB1F91D4BC0083E542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F9C5B61F91D4BC0083E542 = {
+			isa = PBXGroup;
+			children = (
+				39F9C5C11F91D4BC0083E542 /* PlanAir */,
+				39F9C5D61F91D4BC0083E542 /* PlanAirTests */,
+				39F9C5E11F91D4BC0083E542 /* PlanAirUITests */,
+				39F9C5C01F91D4BC0083E542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F9C5C01F91D4BC0083E542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F9C5BF1F91D4BC0083E542 /* PlanAir.app */,
+				39F9C5D31F91D4BC0083E542 /* PlanAirTests.xctest */,
+				39F9C5DE1F91D4BC0083E542 /* PlanAirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F9C5C11F91D4BC0083E542 /* PlanAir */ = {
+			isa = PBXGroup;
+			children = (
+				39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */,
+				39F9C5C41F91D4BC0083E542 /* ViewController.swift */,
+				39F9C5C61F91D4BC0083E542 /* Main.storyboard */,
+				39F9C5C91F91D4BC0083E542 /* Assets.xcassets */,
+				39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */,
+				39F9C5CE1F91D4BC0083E542 /* Info.plist */,
+			);
+			path = PlanAir;
+			sourceTree = "<group>";
+		};
+		39F9C5D61F91D4BC0083E542 /* PlanAirTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F9C5D71F91D4BC0083E542 /* PlanAirTests.swift */,
+				39F9C5D91F91D4BC0083E542 /* Info.plist */,
+			);
+			path = PlanAirTests;
+			sourceTree = "<group>";
+		};
+		39F9C5E11F91D4BC0083E542 /* PlanAirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39F9C5E21F91D4BC0083E542 /* PlanAirUITests.swift */,
+				39F9C5E41F91D4BC0083E542 /* Info.plist */,
+			);
+			path = PlanAirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F9C5BE1F91D4BC0083E542 /* PlanAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F9C5E71F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAir" */;
+			buildPhases = (
+				39F9C5BB1F91D4BC0083E542 /* Sources */,
+				39F9C5BC1F91D4BC0083E542 /* Frameworks */,
+				39F9C5BD1F91D4BC0083E542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanAir;
+			productName = PlanAir;
+			productReference = 39F9C5BF1F91D4BC0083E542 /* PlanAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39F9C5D21F91D4BC0083E542 /* PlanAirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F9C5EA1F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAirTests" */;
+			buildPhases = (
+				39F9C5CF1F91D4BC0083E542 /* Sources */,
+				39F9C5D01F91D4BC0083E542 /* Frameworks */,
+				39F9C5D11F91D4BC0083E542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F9C5D51F91D4BC0083E542 /* PBXTargetDependency */,
+			);
+			name = PlanAirTests;
+			productName = PlanAirTests;
+			productReference = 39F9C5D31F91D4BC0083E542 /* PlanAirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39F9C5DD1F91D4BC0083E542 /* PlanAirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F9C5ED1F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAirUITests" */;
+			buildPhases = (
+				39F9C5DA1F91D4BC0083E542 /* Sources */,
+				39F9C5DB1F91D4BC0083E542 /* Frameworks */,
+				39F9C5DC1F91D4BC0083E542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F9C5E01F91D4BC0083E542 /* PBXTargetDependency */,
+			);
+			name = PlanAirUITests;
+			productName = PlanAirUITests;
+			productReference = 39F9C5DE1F91D4BC0083E542 /* PlanAirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F9C5B71F91D4BC0083E542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RupalT;
+				TargetAttributes = {
+					39F9C5BE1F91D4BC0083E542 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					39F9C5D21F91D4BC0083E542 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39F9C5BE1F91D4BC0083E542;
+					};
+					39F9C5DD1F91D4BC0083E542 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39F9C5BE1F91D4BC0083E542;
+					};
+				};
+			};
+			buildConfigurationList = 39F9C5BA1F91D4BC0083E542 /* Build configuration list for PBXProject "PlanAir" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F9C5B61F91D4BC0083E542;
+			productRefGroup = 39F9C5C01F91D4BC0083E542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F9C5BE1F91D4BC0083E542 /* PlanAir */,
+				39F9C5D21F91D4BC0083E542 /* PlanAirTests */,
+				39F9C5DD1F91D4BC0083E542 /* PlanAirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F9C5BD1F91D4BC0083E542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9C5CD1F91D4BC0083E542 /* LaunchScreen.storyboard in Resources */,
+				39F9C5CA1F91D4BC0083E542 /* Assets.xcassets in Resources */,
+				39F9C5C81F91D4BC0083E542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5D11F91D4BC0083E542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5DC1F91D4BC0083E542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F9C5BB1F91D4BC0083E542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */,
+				39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5CF1F91D4BC0083E542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9C5D81F91D4BC0083E542 /* PlanAirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F9C5DA1F91D4BC0083E542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9C5E31F91D4BC0083E542 /* PlanAirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F9C5D51F91D4BC0083E542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F9C5BE1F91D4BC0083E542 /* PlanAir */;
+			targetProxy = 39F9C5D41F91D4BC0083E542 /* PBXContainerItemProxy */;
+		};
+		39F9C5E01F91D4BC0083E542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F9C5BE1F91D4BC0083E542 /* PlanAir */;
+			targetProxy = 39F9C5DF1F91D4BC0083E542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39F9C5C61F91D4BC0083E542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F9C5C71F91D4BC0083E542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F9C5CC1F91D4BC0083E542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F9C5E51F91D4BC0083E542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F9C5E61F91D4BC0083E542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F9C5E81F91D4BC0083E542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F9C5E91F91D4BC0083E542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39F9C5EB1F91D4BC0083E542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanAir.app/PlanAir";
+			};
+			name = Debug;
+		};
+		39F9C5EC1F91D4BC0083E542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanAir.app/PlanAir";
+			};
+			name = Release;
+		};
+		39F9C5EE1F91D4BC0083E542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanAir;
+			};
+			name = Debug;
+		};
+		39F9C5EF1F91D4BC0083E542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S36H27FPDV;
+				INFOPLIST_FILE = PlanAirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlanAir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F9C5BA1F91D4BC0083E542 /* Build configuration list for PBXProject "PlanAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9C5E51F91D4BC0083E542 /* Debug */,
+				39F9C5E61F91D4BC0083E542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F9C5E71F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9C5E81F91D4BC0083E542 /* Debug */,
+				39F9C5E91F91D4BC0083E542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F9C5EA1F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9C5EB1F91D4BC0083E542 /* Debug */,
+				39F9C5EC1F91D4BC0083E542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F9C5ED1F91D4BC0083E542 /* Build configuration list for PBXNativeTarget "PlanAirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9C5EE1F91D4BC0083E542 /* Debug */,
+				39F9C5EF1F91D4BC0083E542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39F9C5B71F91D4BC0083E542 /* Project object */;
+}
