@@ -25,8 +25,11 @@ class ViewController: UIViewController {
     
     @IBOutlet var save: UIBarButtonItem!
     
+    @IBOutlet var edit: UIBarButtonItem!
     
     @IBAction func editButton(_ sender: Any) {
+//        self.view.editing
+        edit.isEnabled = false
         save.isEnabled = true
         GPAuw.isHidden = false
         GPAw.isHidden = false
@@ -35,6 +38,8 @@ class ViewController: UIViewController {
     }
     @IBAction func saveButton(_ sender: Any) {
         //act
+        edit.isEnabled = true
+        self.view.endEditing(true)
         if GPAuw.text!.characters.count < 10{
             UserDefaults.standard.set(GPAuw.text, forKey: "name")
             

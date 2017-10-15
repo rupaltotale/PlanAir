@@ -51,6 +51,8 @@
 		391940741F92988C0052DBDA /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		391940761F9298FF0052DBDA /* ChooseOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseOneViewController.swift; sourceTree = "<group>"; };
 		391940781F92A3750052DBDA /* WebpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebpageViewController.swift; sourceTree = "<group>"; };
+		391940B41F93050E0052DBDA /* purpleYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purpleYellow.png; path = ../../../../Dropbox/Screenshots/purpleYellow.png; sourceTree = "<group>"; };
+		391940B71F930C1A0052DBDA /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = ../../../../Dropbox/Screenshots/purple.png; sourceTree = "<group>"; };
 		39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandGoalViewController.swift; sourceTree = "<group>"; };
 		39F9C5BF1F91D4BC0083E542 /* PlanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,8 @@
 				391940781F92A3750052DBDA /* WebpageViewController.swift */,
 				391940721F9298700052DBDA /* SecondTable.swift */,
 				391940741F92988C0052DBDA /* ThirdView.swift */,
+				391940B71F930C1A0052DBDA /* purple.png */,
+				391940B41F93050E0052DBDA /* purpleYellow.png */,
 				391940641F9273E10052DBDA /* blueWC.jpg */,
 				39F9C5C91F91D4BC0083E542 /* Assets.xcassets */,
 				39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */,

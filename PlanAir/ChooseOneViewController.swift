@@ -38,7 +38,7 @@ class ChooseOneViewController: UIViewController, UITableViewDelegate, UITableVie
     //
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if (segue.identifier == "co2web"){
         let indexPath: IndexPath = self.table.indexPathForSelectedRow!
         
         
@@ -54,11 +54,11 @@ class ChooseOneViewController: UIViewController, UITableViewDelegate, UITableVie
         
         
         
-    }
+        }}
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueWC.jpg")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
         
     }
-    
-}
+    }
+

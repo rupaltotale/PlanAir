@@ -79,43 +79,40 @@ class WebpageViewController: UIViewController {
     
     
     
-    @IBOutlet var WebView: UIWebView!
+//    @IBOutlet var WebView: UIWebView!
     var someString = String()
     
+    @IBOutlet var label: UILabel!
     var FirstString = String()
     //a variable FirstString holds the text that string holds??
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueWC.jpg")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
         
-        //        TextView.text = the label holds the text that is set to firstString
-        
-        let myurl = URL(string: FirstString)!
-        
-        WebView.loadRequest(URLRequest(url: myurl))
-        
-        
-        
+       
+        let description = FirstString
+//        let myurl = URL(string: FirstString)!
+//
+//        WebView.loadRequest(URLRequest(url: myurl))
+//
+        label.text = description
+//
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func drawText(in rect: CGRect) {
+        let insets = UIEdgeInsets.init(top: 15, left: 15, bottom: 15, right: 15)
+        drawText(in: UIEdgeInsetsInsetRect(rect, insets))
+    }
 }
 
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 
