@@ -1,18 +1,17 @@
 //
-//  ExpandGoalViewController.swift
+//  EditGoalViewController.swift
 //  PlanAir
 //
-//  Created by RupalT on 10/13/17.
+//  Created by RupalT on 10/14/17.
 //  Copyright © 2017 RupalT. All rights reserved.
 //
 
 import UIKit
 
-class ExpandGoalViewController: UIViewController {
+class EditGoalViewController: UIViewController {
 
-
+   
     
-
     var itemsExpand = String()
     
     var position = 0
@@ -47,24 +46,14 @@ class ExpandGoalViewController: UIViewController {
         
     }
     
-    
-    
-    
-    
     @IBOutlet var text: UITextView!
     
     @IBOutlet var date: UILabel!
     
     @IBOutlet var datePickerBox: UIDatePicker!
-    //    @IBOutlet var text: UITextView!
-//
-//
-//    @IBOutlet var date: UILabel!
-//
-//    @IBOutlet var datePickerBox: UIDatePicker!
-//
-    @IBAction func save(_ sender: Any) {
     
+    
+    @IBAction func save(_ sender: Any) {
         let itemsObject = UserDefaults().object(forKey: "items")
         
         // itemsObject holds the value for the key items
@@ -183,7 +172,7 @@ class ExpandGoalViewController: UIViewController {
         
         
         
-        datePickerBox.addTarget(self, action: #selector(ExpandGoalViewController.datePickerChanged(_:)), for: UIControlEvents.valueChanged)
+        datePickerBox.addTarget(self, action: #selector(EditGoalViewController.datePickerChanged(_:)), for: UIControlEvents.valueChanged)
     }
     
     override func didReceiveMemoryWarning() {
@@ -195,3 +184,4 @@ class ExpandGoalViewController: UIViewController {
     
     
 }
+

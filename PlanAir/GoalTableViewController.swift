@@ -105,7 +105,7 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
             
             
             
-            let nextVC = segue.destination as! ExpandGoalViewController
+            let nextVC = segue.destination as! EditGoalViewController
             
             
             
@@ -132,8 +132,8 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
-
-//        self.view.backgroundColor = UIColor(patternImage: UIImage(named: ))
+        
+        //        self.view.backgroundColor = UIColor(patternImage: UIImage(named: ))
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -141,7 +141,7 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    
+}
+
+
 }

@@ -13,7 +13,7 @@
 		391940751F92988C0052DBDA /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940741F92988C0052DBDA /* ThirdView.swift */; };
 		391940771F9298FF0052DBDA /* ChooseOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940761F9298FF0052DBDA /* ChooseOneViewController.swift */; };
 		391940791F92A3750052DBDA /* WebpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940781F92A3750052DBDA /* WebpageViewController.swift */; };
-		39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */; };
+		391940B91F933DFB0052DBDA /* EditGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391940B81F933DFB0052DBDA /* EditGoalViewController.swift */; };
 		39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */; };
 		39F9C5C51F91D4BC0083E542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9C5C41F91D4BC0083E542 /* ViewController.swift */; };
 		39F9C5C81F91D4BC0083E542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F9C5C61F91D4BC0083E542 /* Main.storyboard */; };
@@ -43,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
-		391940641F9273E10052DBDA /* blueWC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueWC.jpg; path = ../../../../Downloads/Images/blueWC.jpg; sourceTree = "<group>"; };
 		3919406E1F92883F0052DBDA /* byg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = byg.png; path = ../../../../Dropbox/Screenshots/byg.png; sourceTree = "<group>"; };
 		3919406F1F9289970052DBDA /* redYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redYellow.png; path = ../../../../Dropbox/Screenshots/redYellow.png; sourceTree = "<group>"; };
 		391940701F9297560052DBDA /* ExtracurricularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracurricularViewController.swift; sourceTree = "<group>"; };
@@ -51,9 +50,7 @@
 		391940741F92988C0052DBDA /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		391940761F9298FF0052DBDA /* ChooseOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseOneViewController.swift; sourceTree = "<group>"; };
 		391940781F92A3750052DBDA /* WebpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebpageViewController.swift; sourceTree = "<group>"; };
-		391940B41F93050E0052DBDA /* purpleYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purpleYellow.png; path = ../../../../Dropbox/Screenshots/purpleYellow.png; sourceTree = "<group>"; };
-		391940B71F930C1A0052DBDA /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = ../../../../Dropbox/Screenshots/purple.png; sourceTree = "<group>"; };
-		39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandGoalViewController.swift; sourceTree = "<group>"; };
+		391940B81F933DFB0052DBDA /* EditGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalViewController.swift; sourceTree = "<group>"; };
 		39F9C5BF1F91D4BC0083E542 /* PlanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F9C5C21F91D4BC0083E542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F9C5C41F91D4BC0083E542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,16 +121,13 @@
 				3919406E1F92883F0052DBDA /* byg.png */,
 				39F9C5F01F91E0EE0083E542 /* GoalTableViewController.swift */,
 				3919405E1F91F2DB0052DBDA /* AddGoalViewController.swift */,
-				39D2B48E1F91E8C400F9908F /* ExpandGoalViewController.swift */,
+				391940B81F933DFB0052DBDA /* EditGoalViewController.swift */,
 				3919406F1F9289970052DBDA /* redYellow.png */,
 				391940701F9297560052DBDA /* ExtracurricularViewController.swift */,
 				391940761F9298FF0052DBDA /* ChooseOneViewController.swift */,
 				391940781F92A3750052DBDA /* WebpageViewController.swift */,
 				391940721F9298700052DBDA /* SecondTable.swift */,
 				391940741F92988C0052DBDA /* ThirdView.swift */,
-				391940B71F930C1A0052DBDA /* purple.png */,
-				391940B41F93050E0052DBDA /* purpleYellow.png */,
-				391940641F9273E10052DBDA /* blueWC.jpg */,
 				39F9C5C91F91D4BC0083E542 /* Assets.xcassets */,
 				39F9C5CB1F91D4BC0083E542 /* LaunchScreen.storyboard */,
 				39F9C5CE1F91D4BC0083E542 /* Info.plist */,
@@ -302,7 +296,7 @@
 				391940711F9297560052DBDA /* ExtracurricularViewController.swift in Sources */,
 				39F9C5C31F91D4BC0083E542 /* AppDelegate.swift in Sources */,
 				391940791F92A3750052DBDA /* WebpageViewController.swift in Sources */,
-				39D2B48F1F91E8C400F9908F /* ExpandGoalViewController.swift in Sources */,
+				391940B91F933DFB0052DBDA /* EditGoalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S36H27FPDV;
+				DEVELOPMENT_TEAM = 7T4MPUYKNW;
 				INFOPLIST_FILE = PlanAir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.PlanAir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,10 +478,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S36H27FPDV;
+				DEVELOPMENT_TEAM = 7T4MPUYKNW;
 				INFOPLIST_FILE = PlanAir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rupal.PlanAir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.PlanAir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

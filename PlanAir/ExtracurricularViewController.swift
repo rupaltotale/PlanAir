@@ -31,7 +31,7 @@ class ExtracurricularViewController: UIViewController, UITableViewDelegate, UITa
         
         
         SecondArray =
-            [SecondTable(SecondTitle: ["Girls Who Code", "Research Science Institute", "NASA OSSI", "ICLEM"]),
+            [SecondTable(SecondTitle: ["Girls Who Code", "Research Science Institute", "NASA OSSI", "ICLEM","Arthritis Foundation Summer Science Internship", "KP Launch Program", "Metropolitan Transportation Commission Internship Program ", "Science & Engineering Apprenticeship Program (SEAP)  ", "UC Davis-Young Scholars Program"]),
              SecondTable(SecondTitle: ["Carnegie Communications", "AfterCollege STEM Inclusion Scholarship", "California Assn. of Collectors Educational Scholarship Foundation", "Dan Coiro Scholarship"]),
              SecondTable(SecondTitle: ["American Cancer Society", "Red Cross", "Open Heart Kitchen", "YMCA"])]
         
@@ -43,7 +43,20 @@ class ExtracurricularViewController: UIViewController, UITableViewDelegate, UITa
               "Each summer, 80 of the world's most accomplished high school students gather at the Massachusetts Institute of Technology (MIT) for the Research Science Institute (RSI). RSI is the first cost-free to students, summer science & engineering program to combine on-campus course work in scientific theory with off-campus work in science and technology research."
 ,
               
-              "iCLEM is a student program that was initiated by Synberc and being sustained by the Joint BioEnergy Institute. The Introductory College Level Experience in Microbiology (iCLEM) is an eight-week paid summer research program for high-potential, low-income high school sophomores and juniors."]),
+              "iCLEM is a student program that was initiated by Synberc and being sustained by the Joint BioEnergy Institute. The Introductory College Level Experience in Microbiology (iCLEM) is an eight-week paid summer research program for high-potential, low-income high school sophomores and juniors.",
+            
+              "8-week internship for juniors & seniors in Northern California; $1,500 stipend; must be US citizen or permanent resident & at least 17 years old. Internships at UCSF & Stanford ",
+              "Kaiser Permanente in Oakl& & other Bay Area locations; 8 weeks, full time. Program targets underserved HS students ",
+              
+              "Introduces HS students to career opportunities in the field of transportation via internships with MTC’s transportation partners (such as traffic engineers at city & county public works departments or planners at transit agencies). Must be 16 years of age by mid-June, have completed 10th grade, & live in the county in which project is located ",
+              
+              "8-week internship at a Department of Navy lab. Participating labs all over the country. Must be 16. $3,300 stipend but no travel/relocation allowance provided ",
+              
+              "6 week summer residential internship program. Focus on biological, environmental & agricultural sciences. Must be rising junior or senior"
+            
+            
+            
+            ]),
                       
                       ThirdView(ThirdViewArray: ["Applicant must register on CollegeXpress (or fill out a response card from Careers and Colleges magazine or Private Colleges & Universities magazines) and be entering college for the first time, accepted as a full-time freshman or transfer student for the fall term. A list of eligible colleges/universities is available at CollegeXpress.com. You do not need to complete an application for this scholarship.",
                                                  

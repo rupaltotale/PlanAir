@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             
             if let userName = Name as? NSString{
                 
-                lGPAuw.text = String("ACT: " + (userName as String))
+                lGPAuw.text = String("Unweighted GPA: " + (userName as String))
                 
                 
                 GPAuw.text = " "
@@ -134,7 +134,7 @@ class ViewController: UIViewController {
         
         if let userGpa = gpa as? NSString{
             
-            lACT.text = String("GPA: " + (userGpa as String))
+            lACT.text = String("ACT: " + (userGpa as String))
             ACT.text = " "
         }
         

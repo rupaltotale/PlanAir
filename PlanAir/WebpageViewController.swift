@@ -11,6 +11,7 @@ import UIKit
 class WebpageViewController: UIViewController {
 
    
+    @IBOutlet var ecTitle: UILabel!
     @IBAction func add(_ sender: Any) {
         
         
@@ -92,6 +93,7 @@ class WebpageViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
         
        
+        ecTitle.text = someString
         let description = FirstString
 //        let myurl = URL(string: FirstString)!
 //
