@@ -37,16 +37,14 @@ class ViewController: UIViewController {
         ACT.isHidden = false
     }
     @IBAction func saveButton(_ sender: Any) {
-        //act
+        
         edit.isEnabled = true
         self.view.endEditing(true)
+        
         if GPAuw.text!.characters.count < 10{
             UserDefaults.standard.set(GPAuw.text, forKey: "name")
             
             let Name = UserDefaults.standard.object(forKey: "name")
-            
-            
-            
             
             
             if let userName = Name as? NSString{
@@ -54,7 +52,7 @@ class ViewController: UIViewController {
                 lGPAuw.text = String("Unweighted GPA: " + (userName as String))
                 
                 
-                GPAuw.text = " "
+                GPAuw.text = (userName as String)
                 
             }
             
@@ -85,12 +83,12 @@ class ViewController: UIViewController {
         if let userGrade = grade as? NSString{
             
             lGPAw.text = String("Weighted GPA: " + (userGrade as String))
-            GPAw.text = " "
+            GPAw.text = (userGrade as String)
         }
         
         
         
-        //sat
+      
         
         
         if SAT.text!.characters.count < 15 {
@@ -105,7 +103,7 @@ class ViewController: UIViewController {
             if let userSat = sat as? NSString{
                 
                 lSAT.text = String("SAT: " + (userSat as String))
-                SAT.text = " "
+                SAT.text = (userSat as String)
             }
             
             
@@ -122,7 +120,7 @@ class ViewController: UIViewController {
         
         
         
-        //gpa
+    
         
         UserDefaults.standard.set(ACT.text, forKey: "gpa")
         
@@ -135,7 +133,7 @@ class ViewController: UIViewController {
         if let userGpa = gpa as? NSString{
             
             lACT.text = String("ACT: " + (userGpa as String))
-            ACT.text = " "
+            ACT.text = (userGpa as String)
         }
         
         save.isEnabled = false
@@ -154,6 +152,7 @@ class ViewController: UIViewController {
     }
     
     //make the keyboard appear
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
@@ -187,6 +186,7 @@ class ViewController: UIViewController {
         if let userName = Name as? NSString{
             
             lGPAuw.text = String("Unweighted GPA: " + (userName as String))
+            GPAuw.text = (userName as String)
             
         }
         
@@ -196,14 +196,14 @@ class ViewController: UIViewController {
         
         let grade = UserDefaults.standard.object(forKey: "grade")
         
-        
+       
         
         
         
         if let userGrade = grade as? NSString{
             
             lGPAw.text = String("Weighted GPA: " + (userGrade as String))
-            
+             GPAw.text = (userGrade as String)
             
             
         }
@@ -222,7 +222,7 @@ class ViewController: UIViewController {
             
             lSAT.text = String("SAT: " + (userSat as String))
             
-            
+            SAT.text =  (userSat as String)
             
             
             
@@ -239,6 +239,7 @@ class ViewController: UIViewController {
         if let userGpa = gpa as? NSString{
             
             lACT.text = String("ACT: " + (userGpa as String))
+            ACT.text = (userGpa as String)
             
         }
         
@@ -248,7 +249,49 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+//    func (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+//    if (theTextField == self.textPassword) {
+//    [theTextField resignFirstResponder];
+//    } else if (theTextField == self.textUsername) {
+//    [self.textPassword becomeFirstResponder];
+//    }
+//    return YES;
+//    }
+//    func textFieldShouldReturn(textField: UITextField) -> Bool {
+//
+//        if textField == GPAuw { // Switch focus to other text field
+//            GPAw.becomeFirstResponder()
+//        }
+//        else if textField == GPAw { // Switch focus to other text field
+//            SAT.becomeFirstResponder()
+//        }
+//        else if textField == SAT { // Switch focus to other text field
+//            ACT.becomeFirstResponder()
+//        }
+//        else{
+//            textField.resignFirstResponder()
+//        }
+//        return true
+//    }
+    
+//    func textFieldShouldReturn(textField: UITextField) -> Bool {
+//        
+//        let nextTage=textField.tag+1;
+//        // Try to find next responder
+//        let nextResponder=textField.superview?.viewWithTag(nextTage) as UIResponder!
+//        
+//        if (nextResponder != nil){
+//            // Found next responder, so set it.
+//            nextResponder?.becomeFirstResponder()
+//        }
+//        else
+//        {
+//            // Not found, so remove keyboard
+//            textField.resignFirstResponder()
+//        }
+//        return false // We do not want UITextField to insert line-breaks.
+//    }
 
 }
 

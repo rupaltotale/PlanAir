@@ -10,6 +10,9 @@ import UIKit
 
 class GoalTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
+    @IBOutlet var goalLabel: UILabel!
+    @IBOutlet var dateLabel: UILabel!
+    
     @IBOutlet var table: UITableView!
     var items:[String] = []
     //new array of string ~ items ~ is created
@@ -50,7 +53,7 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
             items = tempItems
             //set tempItems equal to items
             
-            print(items)
+          
             
         }
         
@@ -60,9 +63,14 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
             date = tempDate
             //set tempItems equal to items
             
-            print(date)
             
         }
+        
+        UserDefaults().set(items, forKey: "items")
+        UserDefaults().set(date, forKey: "date")
+        
+        print(items)
+        print(date)
         
         table.reloadData()
     }
@@ -132,6 +140,8 @@ class GoalTableViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
+        
+        
         
         //        self.view.backgroundColor = UIColor(patternImage: UIImage(named: ))
         

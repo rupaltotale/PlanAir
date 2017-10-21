@@ -20,6 +20,8 @@ class EditGoalViewController: UIViewController {
     
     var NewDate = String()
     
+    
+    
     @objc func datePickerChanged(_ datePicker:UIDatePicker) {
         
         let Formatter = DateFormatter()
@@ -35,7 +37,7 @@ class EditGoalViewController: UIViewController {
         
         let strDate = Formatter.string(from: datePickerBox.date)
         
-        date.text = "Date: " + strDate
+        dateLabel.text = "Date: " + strDate
         
         NewDate = strDate
         
@@ -48,7 +50,7 @@ class EditGoalViewController: UIViewController {
     
     @IBOutlet var text: UITextView!
     
-    @IBOutlet var date: UILabel!
+    @IBOutlet var dateLabel: UILabel!
     
     @IBOutlet var datePickerBox: UIDatePicker!
     
@@ -57,8 +59,7 @@ class EditGoalViewController: UIViewController {
         let itemsObject = UserDefaults().object(forKey: "items")
         
         // itemsObject holds the value for the key items
-        
-        
+       
         
         var items:[String]
         
@@ -87,8 +88,6 @@ class EditGoalViewController: UIViewController {
             
             
             
-            
-            print(items)
             
             UserDefaults().set(items, forKey: "items")
             
@@ -127,9 +126,10 @@ class EditGoalViewController: UIViewController {
                 
                 
                 date[position] = NewDate
+//                date.append(dateLabel.text!)
                 
                 UserDefaults().set(date, forKey: "date")
-                print(date)
+                
             }
             
             
@@ -159,9 +159,9 @@ class EditGoalViewController: UIViewController {
     override func viewDidLoad() {
         text.text = itemsExpand
         
-        date.text = "Date: " + dateExpand
+        dateLabel.text = "Date: " + dateExpand
         
-        
+        NewDate = dateExpand
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "redYellow.png")!)
         
